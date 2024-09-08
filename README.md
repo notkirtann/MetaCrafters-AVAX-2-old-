@@ -14,7 +14,7 @@ The KirtanContract DApp is built using Hardhat and React. It features a smart co
 To get started with the project, clone the repository using the following command:
 
 ```
-git clone https://github.com/Ryder-07/Eth-Proof-Intermediate-Module-2
+git clone https://github.com/notkirtann/MetaCrafters-AVAX-2.git
 ```
 
 Once cloned, navigate to the project's root directory.
