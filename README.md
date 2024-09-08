@@ -1,52 +1,57 @@
-# RudraContract DApp
 
-This project is a decentralized application (DApp) that interacts with the RudraContract smart contract. The DApp allows you to view the owner's name and balance, as well as transfer ethers to the contract owner.
+# KirtanContract DApp
+
+This project is a decentralized application (DApp) that interacts with the KirtanContract smart contract. The DApp allows users to view the contract owner's name and balance, and also transfer ether to the contract owner.
 
 ## Description
 
-The RudraContract DApp is built using Hardhat and React. It consists of a smart contract written in Solidity and a React frontend that provides a user-friendly interface to interact with the contract. The smart contract handles the logic for retrieving the owner's name and balance, as well as transferring ethers to the owner. The React frontend displays the owner's information and provides a form to initiate a transfer.
+The KirtanContract DApp is built using Hardhat and React. It features a smart contract written in Solidity and a React frontend that provides an intuitive interface for interacting with the contract. The smart contract manages the functionality for retrieving the owner's name and balance, as well as transferring ether to the owner. The React frontend displays the owner's details and includes a form to initiate transfers.
 
 ## Getting Started
 
-### Installing
+### Installation
 
-To download the project, you can clone the repository using the following command:
+To get started with the project, clone the repository using the following command:
 
 ```
 git clone https://github.com/Ryder-07/Eth-Proof-Intermediate-Module-2
 ```
 
-After cloning the repository, navigate to the project's root directory.
+Once cloned, navigate to the project's root directory.
 
-### Executing program
+### Running the DApp
 
 To run the DApp, follow these steps:
 
-1. Install the project dependencies by running the following command:
+1. Install the project dependencies by running:
 
    ```
    npm install
    ```
-2. Start a blockchain locally by running the command: 
+
+2. Start a local blockchain by executing:
    ```
    npx hardhat node
    ```
 
-3. Deploy the RudraContract smart contract by running the deployment script:
+3. Deploy the KirtanContract smart contract by running the deployment script:
 
    ```
    npx hardhat run scripts/deploy.js --network localhost
    ```
-4. Go to frontend directory by running the command:
+
+4. Navigate to the frontend directory:
 
    ```
    cd ./frontend
    ```
-5. Install the project dependencies by running the following command:
+
+5. Install the frontend dependencies:
 
    ```
    npm install
    ```
+
 6. Start the React development server:
 
    ```
@@ -55,6 +60,4 @@ To run the DApp, follow these steps:
 
    The DApp will be accessible in your web browser at `http://localhost:3000`.
 
-
-Thank you
-made with ❤️
+Thank you  
