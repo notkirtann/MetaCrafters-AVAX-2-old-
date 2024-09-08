@@ -58,6 +58,23 @@ To run the DApp, follow these steps:
    npm start
    ```
 
+   ### Contact
+If you need further assistance, feel free to reach out:
+
+Email: contactkirtann@gmail.com 
+GitHub Issues: Report issues or suggest enhancements on our GitHub Issues page.  
+
+  
+#### Community  
+Join the community to discuss the project and get help from other user:
+LinekdIn: [@KirtanNahar](https://www.linkedin.com/in/notkirtann/)     
+I hope this information helps you get the most out of our Blockchain Message Manager Smart Contract project. If you have any feedback or suggestions, please let us know!
+
+## Authors
+
+Kirtan Nahar                                                                                                                      
+[@KirtanNahar](https://www.linkedin.com/in/notkirtann/)
+
    The DApp will be accessible in your web browser at `http://localhost:3000`.
 
 Thank you  
