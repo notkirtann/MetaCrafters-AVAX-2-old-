@@ -13,6 +13,8 @@ function App() {
 
   const contractAddress = "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266";
 
+  const backgroundImage = require('./bgSolidity.jpg'); 
+
   const connectWallet = useCallback(async () => {
     try {
       const { ethereum } = window;
@@ -89,13 +91,19 @@ function App() {
     }
   }
 
-  return (
-    <main className="min-h-screen bg-gray-400 flex items-center justify-center">
-  
+ return (
+    <main
+      className="min-h-screen flex items-center justify-center"
+      style={{
+        backgroundImage: `url(${backgroundImage})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center'
+      }}
+    >
       <div className="bg-slate-500 shadow-lg rounded-lg p-8 w-auto w-full">
-      <h1 className="text-4xl font-bold mb-4 text-center">
-        Kirtan's Decentralized Bank
-      </h1>
+        <h1 className="text-4xl font-bold mb-4 text-center">
+          Kirtan's Decentralized Bank
+        </h1>
         <h1 className="text-2xl font-bold text-center mb-4">Contract Owner Name: {name}</h1>
         <p className="text-lg text-center mb-6">Contract Owner Balance: {balance} Ethers</p>
         <label htmlFor="transfer" className="block text-sm font-medium text-white mb-2">
@@ -122,5 +130,6 @@ function App() {
   );
 }
 
+export default App;
 export default App;
 
