@@ -90,11 +90,15 @@ function App() {
   }
 
   return (
-    <main className="min-h-screen bg-gray-100 flex items-center justify-center">
-      <div className="bg-white shadow-lg rounded-lg p-8 max-w-md w-full">
+    <main className="min-h-screen bg-gray-400 flex items-center justify-center">
+  
+      <div className="bg-slate-500 shadow-lg rounded-lg p-8 w-auto w-full">
+      <h1 className="text-4xl font-bold mb-4 text-center">
+        Kirtan's Decentralized Bank
+      </h1>
         <h1 className="text-2xl font-bold text-center mb-4">Contract Owner Name: {name}</h1>
         <p className="text-lg text-center mb-6">Contract Owner Balance: {balance} Ethers</p>
-        <label htmlFor="transfer" className="block text-sm font-medium text-gray-700 mb-2">
+        <label htmlFor="transfer" className="block text-sm font-medium text-white mb-2">
           Transfer amount to Owner
         </label>
         <input
@@ -105,11 +109,11 @@ function App() {
           onChange={(e) => {
             setAmount(e.target.value);
           }}
-          className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm mb-4"
+          className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-green-500 focus:border-black sm:text-sm mb-4"
         />
         <button
           onClick={handleTransfer}
-          className="w-full bg-indigo-600 text-white py-2 rounded-lg shadow-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+          className="w-full bg-black text-white py-2 rounded-lg shadow-md hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
         >
           Transfer Owner
         </button>
@@ -119,3 +123,4 @@ function App() {
 }
 
 export default App;
+
