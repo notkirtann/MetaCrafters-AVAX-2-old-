@@ -58,7 +58,7 @@ To run the DApp, follow these steps:
    npm start
    ```
 
-   ### Contact
+### Contact
 If you need further assistance, feel free to reach out:
 
 Email: contactkirtann@gmail.com 
